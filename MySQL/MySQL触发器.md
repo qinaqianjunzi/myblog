@@ -15,7 +15,7 @@
 >     begin
 >     -- 	获取cid
 >     declare pid int(11);
->     SELECT list_pid INTO pid FROM zanpiancms_list WHERE list_id = NEW.vod_cid;
+>     SELECT list_pid INTO pid FROM list WHERE list_id = NEW.vod_cid;
 >     IF pid = 1 THEN
 >     IF NEW.vod_cid = 31 THEN
 >     IF locate('xxxx',NEW.vod_name) = 0 THEN
