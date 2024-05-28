@@ -32,3 +32,7 @@
     inotifywait -mr --timefmt '%d/%m/%y/%H:%M:%S' --format '%T %w %f %Xe' -e modify,delete,create,attrib,move /var/lib -o ${log_file} --exclude 'rsyslog|chrony' -d
 
 #### 将脚本加入任务计划，每天凌晨执行一次，这样日志的输出内容会少很多，方便阅读
+
+#### 设置脚本开机启动
+![image](https://github.com/qinaqianjunzi/myblog/assets/48326971/b6524afa-ac1c-41e8-a7a4-6ef8c9f939dd)
+
