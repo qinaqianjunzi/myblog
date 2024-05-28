@@ -4,7 +4,7 @@
 
 #### 本来地想法是通过thinkphp5的查询事件操作，但是默认不支持插入之前的变更数据，而且程序本身是商业版的程序，对操作表的部分做了sg的加密处理，那就只能使用MySQL的触发器了，而且MySQL的触发器支持插入之前的数据处理，更加的符合需求。
 
-![image.png](https://note.youdao.com/yws/res/806/WEBRESOURCEb819c43c26ed2961fb1a991599f3c833)
+
 
 #### 创建触发器
 
@@ -193,4 +193,5 @@
 
 #### 触发器的创建必须使用root超级用户，其他用户不允许创建，否则会出现报错
 
-![image.png](https://note.youdao.com/yws/res/910/WEBRESOURCE4d9d6191b48185009d304c89b3a7e79d)
+![image](https://github.com/qinaqianjunzi/myblog/assets/48326971/9a21f99d-ad73-4086-9f50-8a4be0da6664)
+
