@@ -65,5 +65,6 @@
 
 #### 触发器的创建必须使用root超级用户，其他用户不允许创建，否则会出现报错
 
-![image](https://github.com/qinaqianjunzi/myblog/assets/48326971/9a21f99d-ad73-4086-9f50-8a4be0da6664)
+
+![image](https://github.com/qinaqianjunzi/myblog/assets/48326971/519edaed-56bb-4dc0-ab7e-c204ecf8a3d0)
 
